@@ -1,0 +1,48 @@
+/** Header Navbar */
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.navbar__list {
+  gap: 42px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.navbar__item--green {
+  color: #5fb4a2;
+}
+
+/** Footer Navbar */
+
+.footer-navbar {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #33323d;
+  color: #ffffff;
+  padding: 23px 165px;
+}
+
+.footer-navbar__list {
+  align-items: center;
+  gap: 45px;
+}
+
+.footer-navbar__item {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-navbar__list-2 {
+  align-items: center;
+  gap: 16px;
+}

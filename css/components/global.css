@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Public Sans", sans-serif;
+  background-color: #fafafa;
+  color: #33323d;
+}
+
+li,
+a,
+input,
+textarea,
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/** Utility class */
+
+.mg-165 {
+  margin: 0 165px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-rev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/** Contact */
+
+.contact {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.contact__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+}
+
+.contact .secondary-btn {
+  padding: 17px 50px;
+}

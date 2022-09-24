@@ -1,0 +1,30 @@
+.primary-btn {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 17px;
+}
+
+.primary-btn:hover {
+    background-color: #5FB4A2;
+    transition: 0.3s;
+}
+
+.secondary-btn {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 17px 28px;
+    border: 1px solid #33323D;
+}
+
+.secondary-btn:hover {
+    background-color: #33323D;
+    color: #FAFAFA;
+    transition: 0.3s;
+}

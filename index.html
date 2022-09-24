@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--* Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap"
+        rel="stylesheet">
+    <!--* CSS -->
+    <link rel="stylesheet" href="./css/components/global.css">
+    <link rel="stylesheet" href="./css/components/navbars.css">
+    <link rel="stylesheet" href="./css/components/buttons.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <title>Desafio Front-end 01</title>
+</head>
+
+<body>
+    <header class="mg-165">
+        <nav class="navbar flex-row">
+            <a href="#">
+                <img src="./assets/logo-dark.svg" alt="Dark Logo" class="navbar__logo">
+            </a>
+            <ul class="navbar__list flex-row">
+                <li class="navbar__item--green">
+                    <a href="#">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./pages/portfolio.html">Portfolio</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./pages/contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero flex-row">
+        <div class="hero__card">
+            <h1 class="hero__title">Olá, me chamo<br>Alex Spencer e eu<br>amo construir<br>websites lindos</h1>
+            <a href="#about-me" class="hero__btn flex-row">
+                <svg class="hero__btn--svg" xmlns="http://www.w3.org/2000/svg" width="16" height="14">
+                    <g fill="none" fill-rule="evenodd" stroke="#5FB4A2">
+                        <path d="M0 9l8 4 8-4" />
+                        <path opacity=".5" d="M0 5l8 4 8-4" />
+                        <path opacity=".25" d="M0 1l8 4 8-4" />
+                    </g>
+                </svg>
+                <p class="hero__btn--text">Sobre Mim</p>
+            </a>
+        </div>
+    </section>
+    <main class="about-me flex-row mg-165">
+        <img src="./assets/home/image-homepage-profile.jpg" alt="Profile" class="about-me__img">
+        <div class="about-me__card flex-column">
+            <h2 class="about-me__title" id="about-me">Sobre mim</h2>
+            <p class="about-me__text">
+                Sou um desenvolvedor front-end júnior procurando por<br>uma oportunidade. Eu foco em escrever HTML
+                acessível,<br>usando práticas modernas de CSS e escrevendo um<br> JavaScript limpo. Quando estou
+                escrevendo código<br>JavaScript, na maioria
+                das vezes estou usando React, mas<br>posso me adapta para qualquer ferramenta se necessário.<br>Moro em
+                Londres, UK, mas também seria feliz<br>trabalhando remotamente e tenho experiência em times<br>remotos.
+                Quando não estou codando, poderá
+                me achar<br>fora de casa. Eu adoro estar próximo a natureza seja para<br>uma caminhada, corrida ou
+                ciclismo. Eu amaria se você<br>desse uma olhada no meu trabalho.
+            </p>
+            <a href="./pages/portfolio.html" class="about-me__btn secondary-btn">Ir para portfolio</a>
+        </div>
+    </main>
+    <section class="contact flex-row mg-165">
+        <h2 class="contact__title">Interessado em fazer<br>projetos comigo?</h2>
+        <a href="./pages/contato.html" class="secondary-btn">Contato</a>
+    </section>
+    <footer>
+        <nav class="footer-navbar flex-row">
+            <ul class="footer-navbar__list flex-row">
+                <li class="footer-navbar__item">
+                    <a href="#"><img src="./assets/logo-light.svg" alt="Logo White"></a>
+                </li>
+                <li class="footer-navbar__item"><a href="#">Home</a></li>
+                <li class="footer-navbar__item"><a href="./pages/portfolio.html">Portfolio</a></li>
+                <li class="footer-navbar__item"><a href="./pages/contato.html">Contato</a></li>
+            </ul>
+            <ul class="footer-navbar__list-2 flex-row">
+                <li class="footer-navbar__icon">
+                    <a href="https://github.com/" target="_blank">
+                        <img src="./assets/icons/github-light.svg" alt="Github"></a>
+                </li>
+                <li class="footer-navbar__icon">
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="./assets/icons/twitter-light.svg" alt="Twitter"></a>
+                </li>
+                <li class="footer-navbar__icon">
+                    <a href="https://linkedin.com" target="_blank">
+                        <img src="./assets/icons/linkedin-light.svg" alt="LinkedIn"></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

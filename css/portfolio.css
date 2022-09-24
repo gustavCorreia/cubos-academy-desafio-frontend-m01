@@ -1,0 +1,26 @@
+.portfolio {
+  margin: 94px 165px 150px 165px;
+  gap: 80px;
+}
+
+.project {
+  justify-content: space-between;
+}
+
+.project__img {
+  width: 540px;
+  height: 500px;
+}
+
+.project__description {
+  border-top: 1px rgba(51, 50, 61, 0.1) solid;
+  border-bottom: 1px rgba(51, 50, 61, 0.1) solid;
+}
+
+.project__title {
+  padding-top: 103px;
+}
+
+.project__text {
+  padding: 28px 0 54px 0;
+}
